@@ -3,8 +3,15 @@
     "description": "Provide client based on guzzle",
     "license": "proprietary",
     "require": {
-        "guzzlehttp/guzzle": "^6.2"
+        "guzzlehttp/guzzle": "^6.2",
+        "himik/graphql-query-builder": "dev-develop"
     },
+    "repositories": [
+        {
+            "type": "git",
+            "url": "https://github.com/ravivco/graphql-query-builder.git"
+        }
+    ],
     "autoload": {
         "psr-4": {
             "GraphQLClient\\": "src"
