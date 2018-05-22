@@ -5,6 +5,12 @@
     "require": {
         "guzzlehttp/guzzle": "^6.2"
     },
+    "repositories": [
+        {
+            "type": "git",
+            "url": "https://github.com/elazarkaye/graphql-query-builder.git"
+        }
+    ],
     "autoload": {
         "psr-4": {
             "GraphQLClient\\": "src"
