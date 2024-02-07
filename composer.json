@@ -3,7 +3,7 @@
     "description": "Provide client based on guzzle",
     "license": "proprietary",
     "require": {
-        "guzzlehttp/guzzle": "^6.2",
+        "guzzlehttp/guzzle": "*",
         "himik/graphql-query-builder": "dev-develop"
     },
     "autoload": {
