@@ -62,7 +62,6 @@ class HttpClient
             'headers' => [
                 'content-type' => 'application/json',
                 'Authorization' => 'Bearer '.$this->apiKey,
-                'decode_content' => false,
                 'request-id'   => $this->requestId,
             ],
         ])->getBody();
